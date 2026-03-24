@@ -11,7 +11,7 @@ public class Main {
                 2,                      // associativity
                 WritePolicy.WRITE_BACK,
                 ReplacementPolicy.LRU,
-                memory                  // NEW argument
+                memory               
         );
 
         int[] memoryAccesses = {
@@ -29,7 +29,7 @@ public class Main {
         cache.write(0);
         cache.write(64);
 
-        // printStats() was removed in your current Cache
+
         System.out.println("\nHits = " + cache.getHits());
         System.out.println("Misses = " + cache.getMisses());
     }
