@@ -2,8 +2,8 @@ package org.example;
 
 public class CacheLine {
     int tag;
-    int blockNumber;   // NEW
-    int value;         // NEW (simple “data” you can observe)
+    int blockNumber; 
+    int value;         
     boolean valid;
     boolean dirty;
 
