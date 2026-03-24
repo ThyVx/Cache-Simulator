@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class MainMemory {
 
-    // Keeps insertion order (nice in GUI)
+
     private final Map<Integer, MemoryBlock> blocks = new LinkedHashMap<>();
 
     public MemoryBlock readBlock(int blockNumber) {
